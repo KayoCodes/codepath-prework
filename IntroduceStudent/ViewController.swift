@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet var lastNameTextField: UITextField!
     @IBOutlet var schoolNameTextField: UITextField!
     
+    @IBOutlet var ageTextField: UITextField!
     @IBOutlet var numberOfPetsLabel: UILabel!
     
     @IBOutlet var yearSegmentedControl: UISegmentedControl!
@@ -26,7 +27,7 @@ class ViewController: UIViewController {
     @IBAction func introduceSelfDidTapped(_ sender: UIButton) {
         let year = yearSegmentedControl.titleForSegment(at: yearSegmentedControl.selectedSegmentIndex)
       
-        let introduction = "My name is \(firstNameTextField.text!) \(lastNameTextField.text!) and I attend \(schoolNameTextField.text!). I am currently in my \(year!) year and I own \(numberOfPetsLabel.text!) dogs. It is \(morePetsSwitch.isOn) that I want more pets."
+        let introduction = "My name is \(firstNameTextField.text!) \(lastNameTextField.text!) and I attend \(schoolNameTextField.text!). I am currently \(ageTextField.text!) years old. I am in my \(year!) year and I own \(numberOfPetsLabel.text!) dog(s). It is \(morePetsSwitch.isOn) that I want more pets."
         
         let alertController = UIAlertController(title: "My Introduction", message: introduction, preferredStyle: .alert)
         
@@ -35,6 +36,11 @@ class ViewController: UIViewController {
         
         present(alertController, animated: true, completion: nil)
     }
+    
+    @IBAction func ChangeBackroundColorTapped(_ sender: UIButton) {
+        view.backgroundColor = UIColor.random()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

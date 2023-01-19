@@ -13,6 +13,7 @@
 		5A5F36ED2975D3880040E68E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A5F36EB2975D3880040E68E /* Main.storyboard */; };
 		5A5F36EF2975D3900040E68E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A5F36EE2975D3900040E68E /* Assets.xcassets */; };
 		5A5F36F22975D3900040E68E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A5F36F02975D3900040E68E /* LaunchScreen.storyboard */; };
+		5A5F36FA29799EED0040E68E /* colorsext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5F36F929799EED0040E68E /* colorsext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5A5F36EE2975D3900040E68E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A5F36F12975D3900040E68E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A5F36F32975D3900040E68E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A5F36F929799EED0040E68E /* colorsext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorsext.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				5A5F36EE2975D3900040E68E /* Assets.xcassets */,
 				5A5F36F02975D3900040E68E /* LaunchScreen.storyboard */,
 				5A5F36F32975D3900040E68E /* Info.plist */,
+				5A5F36F929799EED0040E68E /* colorsext.swift */,
 			);
 			path = IntroduceStudent;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A5F36EA2975D3880040E68E /* ViewController.swift in Sources */,
+				5A5F36FA29799EED0040E68E /* colorsext.swift in Sources */,
 				5A5F36E62975D3880040E68E /* AppDelegate.swift in Sources */,
 				5A5F36E82975D3880040E68E /* SceneDelegate.swift in Sources */,
 			);
